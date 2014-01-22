@@ -30,7 +30,7 @@ if [ "$(uname)" == "Darwin" ]; then # Mac OS X
     chmod +x ./adb
     chmod +x ./fastboot
     echo "[INFO] Adding ADB and Fastboot to path..."
-    echo export PATH=~/.adb-fastboot/:$PATH >> ~/.bash_profile
+    echo export PATH=~/.adb-fastboot/:\$PATH >> ~/.bash_profile
     echo "[ OK ] Done!"
     echo "[INFO] Type adb or fastboot to run."
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # Linux
@@ -45,7 +45,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # Linux
     chmod +x ./adb
     chmod +x ./fastboot
     echo "[INFO] Adding ADB and Fastboot to path..."
-    echo export PATH=~/.adb-fastboot/:$PATH >> ~/.bash_profile
+    echo export PATH=~/.adb-fastboot/:\$PATH >> ~/.bash_profile
     echo "[ OK ] Done!"
     echo "[INFO] Type adb or fastboot to run."
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then # Cygwin on Windows
