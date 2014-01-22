@@ -11,6 +11,10 @@ Nexus Tools requires sudo privileges to install the adb and fastboot tools to /u
 
 ---------------------------------------
 
+__NOTE:__ Script was put together entirely by corbindavenport. The only difference is that this fork does not place binaries in /usr/bin, so it does not require root to run. 
+
+---------------------------------------
+
 __XDA Thread:__ [http://forum.xda-developers.com/showthread.php?t=2564453](http://forum.xda-developers.com/showthread.php?t=2564453)
 
 ---------------------------------------
