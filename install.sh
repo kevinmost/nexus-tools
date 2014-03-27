@@ -29,10 +29,10 @@ fi
 mkdir ~/.adb-fastboot
 cd ~/.adb-fastboot
 echo "[INFO] Downloading ADB..."
-curl -s -o adb "http://github.com/corbindavenport/nexus-tools/blob/master/$OS/adb?raw=true" -LOk
+curl -s -o adb "http://github.com/kevinmost/nexus-tools/blob/master/$OS/adb?raw=true" -LOk
 echo "[ OK ] ADB finished downloading."
 echo "[INFO] Downloading Fastboot..."
-curl -s -o fastboot "http://github.com/corbindavenport/nexus-tools/blob/master/$OS/fastboot?raw=true" -LOk
+curl -s -o fastboot "http://github.com/kevinmost/nexus-tools/blob/master/$OS/fastboot?raw=true" -LOk
 echo "[ OK ] Fastboot finished downloading."
 echo "[INFO] Making ADB and Fastboot executable..."
 chmod +x ./adb
